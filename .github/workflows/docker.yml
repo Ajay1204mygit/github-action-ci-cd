@@ -3,7 +3,7 @@ name: Docker CI/CD Pipeline
 on:
   push:
     branches: [dev]
-
+    
 jobs:
   ci:
     runs-on: self-hosted
